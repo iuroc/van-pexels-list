@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "outDir": "js"
+    },
+}
