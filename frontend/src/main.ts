@@ -36,7 +36,7 @@ const App = () => {
     const totalPage = van.state(0)
     const pageLoading = van.state(true)
     const loadPhotos = (pageIndex: number) => {
-        getPhotos(pageIndex, 100).then(data => {
+        getPhotos(pageIndex, 30).then(data => {
             const { photos, pageSize } = data
             totalPage.val = Math.ceil(8000 / pageSize)
             photos.forEach(photo => {
