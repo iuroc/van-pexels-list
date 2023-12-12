@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "bootstrap": "^5.3.2",
     "vanjs-core": "^1.2.6"
   },
   "devDependencies": {
+    "sass": "^1.69.5",
     "vite": "^5.0.7"
   }
 }
